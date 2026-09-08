@@ -21,14 +21,14 @@ End the program
 #RegisterNumber:212225040466
 
 ```
-```
+~~~python
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
 a=np.array([[2,1,1],[1,1,1],[1,-1,2]])
 b=np.linalg.inv(a)
 print(b)
-```
+~~~
 ## Output:
 
 <img width="1046" height="287" alt="image" src="https://github.com/user-attachments/assets/dc49fcb6-c232-42ef-acee-bea4b1205589" />
